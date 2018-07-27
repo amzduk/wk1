@@ -27,6 +27,16 @@ def calculate(s):
     '''
     # TODO = fill in this function
     pass
+    valid = 1
+    for i in s:
+        if valid == 1:
+            if ((i != '(' and i != ')' and i != '+' and i != '-' and i != '*' and i != '/' and i != '^' and i.isdigit() == False)):
+                valid = 0
+	
+    if valid == 1:
+        return(eval(s))
+    else:
+        return
 
 if __name__ == '__main__':
     import doctest
