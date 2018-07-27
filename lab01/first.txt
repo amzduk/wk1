@@ -1,4 +1,11 @@
-print(fd"0")
-prinfdt("1")
-fdfsprint("2")
-print("3fdfdfd")
+
+
+
+
+
+
+print("-1")
+print("1")
+print("2")
+print("3")
+
